@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ENISA Railway Cybersecurity: From Policy to Practice · Railway Cyber Intel</title>
+<meta name="description" content="Discover ENISA's practical guidelines for securing rail OT/IT, covering real-world attacks and actionable best practices for operators.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ENISA Railway Cybersecurity: From Policy to Practice">
+<meta property="og:description" content="Discover ENISA's practical guidelines for securing rail OT/IT, covering real-world attacks and actionable best practices for operators.">
+<meta property="og:image" content="https://cwarground.github.io/railway-cyber-site/images/20260720-enisa-railway-cybersecurity-from-policy-to-practice.png">
+<meta property="og:url" content="https://cwarground.github.io/railway-cyber-site/posts/20260720-enisa-railway-cybersecurity-from-policy-to-practice.html">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+  :root { color-scheme: dark; }
+  body {
+    margin: 0; background: #0b0f14; color: #e6edf3;
+    font-family: -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+  }
+  .banner { width: 100%; max-height: 420px; object-fit: cover; display: block; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 20px 80px; }
+  .badge {
+    display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: 0.06em;
+    color: #4facfe; border: 1px solid #4facfe; border-radius: 999px; padding: 4px 12px;
+    margin-bottom: 16px; text-transform: uppercase;
+  }
+  h1 { font-size: 32px; line-height: 1.25; margin: 0 0 8px; }
+  .meta { color: #8b949e; font-size: 14px; margin-bottom: 32px; }
+  h3 { color: #4facfe; font-size: 19px; margin-top: 32px; }
+  p, li { color: #c9d1d9; font-size: 16.5px; }
+  ul { padding-left: 22px; }
+  .sources {
+    margin-top: 48px; padding-top: 24px; border-top: 1px solid #21262d;
+  }
+  .sources h3 { color: #e6edf3; }
+  .sources a {
+    color: #4facfe; text-decoration: none; display: block; margin: 6px 0; font-size: 15px;
+  }
+  .sources a:hover { text-decoration: underline; }
+  .channel-link {
+    margin-top: 40px; text-align: center;
+  }
+  .channel-link a {
+    display: inline-block; background: #4facfe; color: #0b0f14; font-weight: 700;
+    padding: 12px 28px; border-radius: 8px; text-decoration: none;
+  }
+</style>
+</head>
+<body>
+<img class="banner" src="https://cwarground.github.io/railway-cyber-site/images/20260720-enisa-railway-cybersecurity-from-policy-to-practice.png" alt="ENISA Railway Cybersecurity: From Policy to Practice">
+<main>
+  <span class="badge">Standard</span>
+  <h1>ENISA Railway Cybersecurity: From Policy to Practice</h1>
+  <div class="meta">Railway Cyber Intel &middot; 20 Jul 2026</div>
+  <p>The European Union Agency for Cybersecurity (ENISA) has published a set of good practices tailored to the railway sector, addressing the unique challenges of converging operational technology (OT) and information technology (IT) in rail environments. The 2021 report 'Railway Cybersecurity – Good Practices in Cyber Risk Management' distills lessons from incidents, regulatory frameworks, and industry feedback into actionable guidance for rail operators and security engineers.</p><h3>Standards and Regulatory Context</h3><p>The ENISA guidelines align with the EU's Network and Information Security (NIS) Directive and the upcoming NIS2 Directive, as well as sector-specific standards like CENELEC TS 50701 (which maps IEC 62443 to railways). The report references the European Rail Traffic Management System (ERTMS) and its security requirements (Subset-093 and Subset-137). It also acknowledges the Railway Security Regulation (EU) 2018/848, which requires risk assessments and incident reporting. Crucially, ENISA recommends adopting the IEC 62443 series for industrial automation and control systems (IACS) as the baseline for rail OT security, applying zones and conduits concepts to signaling, telematics, and power systems.</p><h3>Real-World Attack Vectors and Incidents</h3><p>The report highlights several attack types that have affected railways globally. Ransomware, as seen in the 2020 incident at the San Francisco Municipal Transportation Agency (SFMTA) that disrupted ticketing systems, and the 2018 attack on the Danish state railway (DSB) that took down train departure displays. The ENISA report also cites spear-phishing campaigns targeting railway staff, such as a 2020 attack on European railway operators that used malicious documents to steal credentials. In addition, it covers distributed denial-of-service (DDoS) attacks against signaling systems and the manipulation of ERTMS data through GSM-R vulnerabilities. A notable case is the 2016 cyber‐attack on the Ukrainian railway system (part of the power grid attack) that disrupted train dispatching.</p><h3>ENISA Good Practices for Rail Operators</h3><p>The core of the report is a set of 11 good practices organized under four pillars: Governance & Organisation, Risk Management & Asset Management, Personnel, and Technical Measures. Key recommendations include establishing a cybersecurity management system (CSMS) aligned with ISO 27001; performing regular risk assessments that cover both IT and OT (including safety-critical systems); implementing network segmentation between operational and business networks; adopting multi-factor authentication for remote access; and conducting regular security exercises (tabletop and live). The report emphasizes the importance of supply chain security, requiring third-party vendors to comply with security clauses in procurement contracts (referencing NIS2 and Cyber Resilience Act). It also calls for continuous monitoring of OT networks using anomaly detection tools and the implementation of a vulnerability disclosure policy.</p><h3>Practical Implication</h3><p>For a railway operator or security engineer, the immediate takeaway is to prioritize implementing the IEC 62433-3-2 (zone and conduit) model across your OT landscape. Start with a risk assessment of the signaling system (e.g., ETCS Level 2) and traction power SCADA. Enforce network segmentation by deploying industrial firewalls between the office network and the train control center. Conduct a tabletop exercise simulating a ransomware attack on the passenger information system to test your incident response plan. Finally, ensure your procurement team includes cybersecurity requirements from ENISA and NIS2 in all contracts with rolling stock and signaling suppliers.</p>
+  <div class="sources">
+    <h3>Sources</h3>
+    <a href="https://digital-strategy.ec.europa.eu/en/policies/nis-directive" target="_blank" rel="noopener noreferrer">NIS Directive (EU) 2016/1148 and NIS2 Directive (EU) 2022/2555</a>
+<a href="https://eur-lex.europa.eu/eli/reg/2018/848/oj" target="_blank" rel="noopener noreferrer">Railway Security Regulation (EU) 2018/848</a>
+  </div>
+  <div class="channel-link">
+    <a href="https://t.me/railwaycyberintel">Join @railwaycyberintel on Telegram</a>
+  </div>
+</main>
+</body>
+</html>

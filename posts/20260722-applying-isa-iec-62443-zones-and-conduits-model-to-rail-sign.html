@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Applying ISA/IEC 62443 Zones and Conduits Model to Rail Signaling Networks · Railway Cyber Intel</title>
+<meta name="description" content="Learn how the ISA/IEC 62443 cybersecurity standard's zones and conduits model can be adapted for rail signaling networks.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Applying ISA/IEC 62443 Zones and Conduits Model to Rail Signaling Networks">
+<meta property="og:description" content="Learn how the ISA/IEC 62443 cybersecurity standard's zones and conduits model can be adapted for rail signaling networks.">
+<meta property="og:image" content="https://cwarground.github.io/railway-cyber-site/images/20260722-applying-isa-iec-62443-zones-and-conduits-model-to-rail-sign.png">
+<meta property="og:url" content="https://cwarground.github.io/railway-cyber-site/posts/20260722-applying-isa-iec-62443-zones-and-conduits-model-to-rail-sign.html">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+  :root { color-scheme: dark; }
+  body {
+    margin: 0; background: #0b0f14; color: #e6edf3;
+    font-family: -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+  }
+  .banner { width: 100%; max-height: 420px; object-fit: cover; display: block; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 20px 80px; }
+  .badge {
+    display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: 0.06em;
+    color: #4facfe; border: 1px solid #4facfe; border-radius: 999px; padding: 4px 12px;
+    margin-bottom: 16px; text-transform: uppercase;
+  }
+  h1 { font-size: 32px; line-height: 1.25; margin: 0 0 8px; }
+  .meta { color: #8b949e; font-size: 14px; margin-bottom: 32px; }
+  h3 { color: #4facfe; font-size: 19px; margin-top: 32px; }
+  p, li { color: #c9d1d9; font-size: 16.5px; }
+  ul { padding-left: 22px; }
+  .sources {
+    margin-top: 48px; padding-top: 24px; border-top: 1px solid #21262d;
+  }
+  .sources h3 { color: #e6edf3; }
+  .sources a {
+    color: #4facfe; text-decoration: none; display: block; margin: 6px 0; font-size: 15px;
+  }
+  .sources a:hover { text-decoration: underline; }
+  .channel-link {
+    margin-top: 40px; text-align: center;
+  }
+  .channel-link a {
+    display: inline-block; background: #4facfe; color: #0b0f14; font-weight: 700;
+    padding: 12px 28px; border-radius: 8px; text-decoration: none;
+  }
+</style>
+</head>
+<body>
+<img class="banner" src="https://cwarground.github.io/railway-cyber-site/images/20260722-applying-isa-iec-62443-zones-and-conduits-model-to-rail-sign.png" alt="Applying ISA/IEC 62443 Zones and Conduits Model to Rail Signaling Networks">
+<main>
+  <span class="badge">Standard</span>
+  <h1>Applying ISA/IEC 62443 Zones and Conduits Model to Rail Signaling Networks</h1>
+  <div class="meta">Railway Cyber Intel &middot; 22 Jul 2026</div>
+  <p>The ISA/IEC 62443 standards provide a robust framework for securing industrial control systems (ICS), including rail signaling networks. One key component of these guidelines is the 'zones and conduits' model, which segment network traffic based on sensitivity level. This approach can be tailored to fit the unique needs of rail communications.</p><h3>Standard Overview</h3><p>The zones and conduits methodology divides an industrial network into three security zones: Zone 0 (field devices), Zone 1 (control rooms and other critical systems), and Zone 2 (network periphery like internet connections). Traffic flows between these zones are then strictly regulated. Conduits, or data pathways, link the zones to control how information is shared.</p><h3>Applying to Rail Signaling</h3><p>To adapt this for rail signaling, Zones 0 and 1 could represent on-track assets and central traffic control respectively, with Zone 2 encompassing wider communications. Conduits would be established between these zones based on operational needs. For example, real-time train location may pass from Zone 0 to Zone 1, while maintenance scheduling moves in the other direction.</p><h3>Segmentation Best Practices</h3><p>Rail operators should map out all signaling and communications endpoints using a diagrammatic approach. Critical data flows can then be identified and prioritized for secure conduits. Boundary protection devices should enforce access controls where conduits meet higher security zones.</p><h3>Practical Implication</h3><p>By implementing the ISA/IEC 62443 zones and conduits model, rail operators can improve the resilience of their signaling infrastructure against cyber threats. Careful segmentation allows sensitive information to be compartmentalized and protected from unauthorized access or manipulation. Adopting this standard-based methodology is a proactive way to enhance rail safety through cybersecurity.</p>
+  <div class="sources">
+    <h3>Sources</h3>
+    <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r4.pdf" target="_blank" rel="noopener noreferrer">NIST ICS Guide</a>
+  </div>
+  <div class="channel-link">
+    <a href="https://t.me/railwaycyberintel">Join @railwaycyberintel on Telegram</a>
+  </div>
+</main>
+</body>
+</html>

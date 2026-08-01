@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Applying ISA/IEC 62443 Zones and Conduits to Rail Signaling Networks · Railway Cyber Intel</title>
+<meta name="description" content="Learn how to apply the ISA/IEC 62443 zones and conduits cybersecurity model to protect rail signaling networks.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Applying ISA/IEC 62443 Zones and Conduits to Rail Signaling Networks">
+<meta property="og:description" content="Learn how to apply the ISA/IEC 62443 zones and conduits cybersecurity model to protect rail signaling networks.">
+<meta property="og:image" content="https://cwarground.github.io/railway-cyber-site/images/20260801-applying-isa-iec-62443-zones-and-conduits-to-rail-signaling-.png">
+<meta property="og:url" content="https://cwarground.github.io/railway-cyber-site/posts/20260801-applying-isa-iec-62443-zones-and-conduits-to-rail-signaling-.html">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+  :root { color-scheme: dark; }
+  body {
+    margin: 0; background: #0b0f14; color: #e6edf3;
+    font-family: -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+  }
+  .banner { width: 100%; max-height: 420px; object-fit: cover; display: block; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 20px 80px; }
+  .badge {
+    display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: 0.06em;
+    color: #4facfe; border: 1px solid #4facfe; border-radius: 999px; padding: 4px 12px;
+    margin-bottom: 16px; text-transform: uppercase;
+  }
+  h1 { font-size: 32px; line-height: 1.25; margin: 0 0 8px; }
+  .meta { color: #8b949e; font-size: 14px; margin-bottom: 32px; }
+  h3 { color: #4facfe; font-size: 19px; margin-top: 32px; }
+  p, li { color: #c9d1d9; font-size: 16.5px; }
+  ul { padding-left: 22px; }
+  .sources {
+    margin-top: 48px; padding-top: 24px; border-top: 1px solid #21262d;
+  }
+  .sources h3 { color: #e6edf3; }
+  .sources a {
+    color: #4facfe; text-decoration: none; display: block; margin: 6px 0; font-size: 15px;
+  }
+  .sources a:hover { text-decoration: underline; }
+  .channel-link {
+    margin-top: 40px; text-align: center;
+  }
+  .channel-link a {
+    display: inline-block; background: #4facfe; color: #0b0f14; font-weight: 700;
+    padding: 12px 28px; border-radius: 8px; text-decoration: none;
+  }
+  .topic-photo { width: 100%; border-radius: 10px; margin: 24px 0 4px; display: block; }
+  .photo-credit { color: #8b949e; font-size: 12px; margin-bottom: 24px; }
+  .photo-credit a { color: #4facfe; text-decoration: none; }
+</style>
+</head>
+<body>
+<img class="banner" src="https://cwarground.github.io/railway-cyber-site/images/20260801-applying-isa-iec-62443-zones-and-conduits-to-rail-signaling-.png" alt="Applying ISA/IEC 62443 Zones and Conduits to Rail Signaling Networks">
+<main>
+  <span class="badge">Standard</span>
+  <h1>Applying ISA/IEC 62443 Zones and Conduits to Rail Signaling Networks</h1>
+  <div class="meta">Railway Cyber Intel &middot; 01 Aug 2026</div>
+  <img class="topic-photo" src="https://cwarground.github.io/railway-cyber-site/images/20260801-applying-isa-iec-62443-zones-and-conduits-to-rail-signaling--photo.jpg" alt="Applying ISA/IEC 62443 Zones and Conduits to Rail Signaling Networks"><div class="photo-credit">Photo by Ceha Rabbani on <a href="https://www.pexels.com/photo/interior-of-a-train-on-rails-21727917/" target="_blank" rel="noopener noreferrer">Pexels</a></div>
+  <p>The ISA/IEC 62443 standards provide a framework for securing industrial control systems, including rail signaling networks. One key component is the 'zones and conduits' model, which helps define security perimeters around critical assets. By applying this model, rail operators can better protect their signaling infrastructure from cyber threats.</p><h3>Understanding Zones and Conduits</h3><p>In the zones and conduits model, a network is divided into three zones based on their sensitivity to attack:</p><ul><li><strong>Zone 0 (Uncontrolled)</strong>: Assets with no security controls around them. This could be an employee's personal laptop connected to the corporate network.</li><li><strong>Zone 1 (Controlled)</strong>: Assets that are directly accessible by personnel, such as server rooms or control panels.</li><li><strong>Zone 2 (Restricted)</strong>: Assets in a protected area of the network, typically accessed through security controls like firewalls and VPNs. This might include the signaling master station.</li></ul><p>Data paths connecting these zones are called conduits, each requiring specific access rules to ensure only authorized traffic can pass between them.</p><h3>Applying Zones and Conduits to Rail Networks</h3><p>To apply this model to rail networks:</p><ol><li><strong>Identify critical assets</strong>: This could include signaling master stations, remote input/output (I/O) devices, track circuits, and communication networks.</li><li><strong>Assign zones based on sensitivity</strong>: Classify these assets into Zone 0, 1, or 2 based on the risk of unauthorized access. For example, a train driver's cab might be Zone 0, while the central traffic control center could be Zone 2.</li><li><strong>Define conduits and rules</strong>: Establish the allowed paths between zones for data to flow (e.g., from Zone 1 to Zone 2). Define strict access controls for these conduits.</li></ol><h3>Practical Implication</h3><p>By applying the ISA/IEC 62443 model, rail operators can create a robust security posture for their signaling networks. This helps prevent unauthorized access or modification of critical assets, ensuring the reliability and safety of train operations. Implementing zones and conduits also enables better auditing and compliance with cybersecurity standards.</p>
+  <div class="sources">
+    <h3>Sources</h3>
+    <a href="https://www.isa.org/standards/62443/" target="_blank" rel="noopener noreferrer">ISA/IEC 62443 Standard</a>
+<a href="https://www.nist.gov/cyberframework" target="_blank" rel="noopener noreferrer">NIST Cybersecurity Framework</a>
+  </div>
+  <div class="channel-link">
+    <a href="https://t.me/railwaycyberintel">Join @railwaycyberintel on Telegram</a>
+  </div>
+</main>
+</body>
+</html>
